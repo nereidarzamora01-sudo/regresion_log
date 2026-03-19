@@ -1,10 +1,11 @@
-## hola
+# hola
 # hola su alumna faborita😁✌️
-# HOY una explicacion de Regresión Logística Binaria en R
+# HOY una explicacion de Regresión Logística Binaria en R La regresión logística es una herramienta útil para predecir variables binarias. En este caso, permitió estimar la probabilidad de que un usuario sea activo en función de sus características, facilitando la toma de decisiones basada en datos.
 ----------------------------------------------------------------------------------------------
 
 # para esto utilisare mi repositorio hecho en classe como modelo #
 # En este ejercicio aplique un modelo de **regresión logística binaria** con el objetivo de analizar el uso de una aplicación móvil.
+
 # El propósito es predecir si un usuario es:
 
 # Activo (1): usa la app más de 2 horas
@@ -22,9 +23,7 @@
 ## Y usamos el Modelo de regresión logística ya que permite estimar la probabilidad de que ocurra un evento (en este caso, ser usuario activo) en función de variables explicativas.
 
 # Se utilizó la función glm() en R para ajustar el modelo:
-# modelo <- glm(Tiempo_en_app ~ trabajo + edad,
-             data=datos,
-             family=binomial)
+# modelo <- glm(Tiempo_en_app ~ trabajo + edad, data=datos, family=binomial)
 
 ----------------------------------------------------------------------------------------------
 
@@ -53,7 +52,5 @@
 # Por lo tanto, el modelo permite analizar cómo variables como la edad y el empleo influyen en el uso de la aplicación.
 
 ------------------------------------------------------------------------------------------------------
-
-# Conclusión: La regresión logística es una herramienta útil para predecir variables binarias. En este caso, permitió estimar la probabilidad de que un usuario sea activo en función de sus características, facilitando la toma de decisiones basada en datos.
 
 
